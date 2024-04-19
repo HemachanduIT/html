@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+</head>
+
+<body>
+    <h1>Race Registration!</h1>
+    <form action="/chandu">
+        <label for="fname">First Name</label>
+        <input type="text" name="first name is:" id="fname" required>
+        <label for="lname">Last Name</label>
+        <input type="text" name="last name is:" id="lname" required>
+
+        <p>Select a Race:</p>
+        <div>
+            <input type="radio" name="run" id="run" value="funrun">
+            <label for="run">Fun Run 5k</label>
+        </div>
+        <div>
+            <input type="radio" name="run" id="hmarathon" value="halfmarathon">
+            <label for="hmarathon">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" name="run" id="fmarathon" value="full marathon">
+            <label for="fmarathon">Full Marathon</label>
+        </div>
+
+        <p>
+            <label for="mail">Email</label>
+            <input type="email" name="email is:" id="mail" required>
+            <label for="pas">password</label>
+            <input type="password" name="***" id="pas" minlength="5" maxlength="8" required>
+        </p>
+
+
+
+        <div>
+            <label for="age">Select Age Group</label>
+            <select name="under" id="age">
+                <option value="20">under 20</option>
+                <option value="30">under 30</option>
+                <option value="40">under 40</option>
+                <option value="50">under 50</option>
+                <option value="60">under 60</option>
+
+            </select>
+        </div>
+        <div>
+            <button>Register </button>
+        </div>
+
+
+    </form>
+</body>
+
+</html>
